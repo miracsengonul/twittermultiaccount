@@ -5,7 +5,12 @@ Twitter Multi Account Manager ile tüm Twitter hesaplarınızı tek hesap hesap 
 
 ## Kurulum
 
-- Öncelikle Twitter üzerinden kendinize bir Dev App oluşturun.
+Öncelikle
+
+> git clone https://github.com/miracsengonul/twittermultiaccount.git
+komutu ile sunucunuza kurulum yapın.
+
+- Daha sonra Twitter üzerinden kendinize bir Dev App oluşturun.
 - App oluştururken belirteceğiniz Callback Url adresini ``` routes/web.php ``` içerisinde bulunan
 
 ```php
@@ -13,9 +18,6 @@ Route::get('CALLBACK_URL', 'Auth\ChildAuthController@handleProviderCallback');
 ```
 
 ``` CALLBACK_URL ``` ile değiştirin.
-
-> git clone https://github.com/miracsengonul/twittermultiaccount.git
-Komutu ile sunucunuza kurulum yapın.
 
 - Daha sonra .env dosyasını kendinize göre değiştirin. Burada Twitter API ve sunucu konfigürasyonu yapmanız lazım.
 
