@@ -72,5 +72,5 @@ Route::prefix('patron')->middleware('kontrol')->group(function () {
     Route::get('iletisim', 'IletisimController@index');
 });
 
-Route::get('auth/twitter/callback', 'Auth\ChildAuthController@handleProviderCallback');
+Route::get('CALLBACK_URL', 'Auth\ChildAuthController@handleProviderCallback');
 
