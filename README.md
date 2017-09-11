@@ -6,7 +6,7 @@ Twitter Multi Account Manager ile tüm Twitter hesaplarınızı tek hesap hesap 
 ## Kurulum
 
 - Öncelikle Twitter üzerinden kendinize bir Dev App oluşturun.
-- App oluştururken belirteceğiniz Callback Url adresini route içerisinde bulunan
+- App oluştururken belirteceğiniz Callback Url adresini ``` routes/web.php ``` içerisinde bulunan
 
 ```php
 Route::get('CALLBACK_URL', 'Auth\ChildAuthController@handleProviderCallback');
