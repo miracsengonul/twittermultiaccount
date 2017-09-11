@@ -1,7 +1,7 @@
 #Twitter Multi Account Manager
 ========
 
-Twitter Multi Account Manager ile tüm Twitter hesaplarınızı tek hesap hesap üzerinden yönetebilirsiniz.
+Twitter Multi Account Manager ile tüm Twitter hesaplarınızı tek hesap üzerinden yönetebilirsiniz.
 
 ## Kurulum
 
