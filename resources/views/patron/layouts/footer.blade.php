@@ -1,0 +1,1 @@
+<footer class="footer text-center"> © {{date('Y')}} TwitGroup.net </footer>

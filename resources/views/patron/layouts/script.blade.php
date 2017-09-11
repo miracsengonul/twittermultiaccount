@@ -1,0 +1,12 @@
+<script src="{{asset('assets/plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('assets/plugins/bootstrap/js/tether.min.js')}}"></script>
+<script src="{{asset('assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.slimscroll.js')}}"></script>
+<script src="{{asset('js/waves.js')}}"></script>
+<script src="{{asset('js/sidebarmenu.js')}}"></script>
+<script src="{{asset('assets/plugins/sticky-kit-master/dist/sticky-kit.min.js')}}"></script>
+<script src="{{asset('js/custom.min.js')}}"></script>
+<script src="{{asset('assets/plugins/chartist-js/dist/chartist.min.js')}}"></script>
+<script src="{{asset('assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js')}}"></script>
+<script src="{{asset('assets/plugins/d3/d3.min.js')}}"></script>
+<script src="{{asset('assets/plugins/c3-master/c3.min.js')}}"></script>
